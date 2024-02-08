@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: rgb(142, 30, 121);
+    padding: 16px, 0;
+    color: #fff;
+    display: flexbox;
+    border-bottom: 16px, solid #000000;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+}
+header button {
+    background-color: rgb(208, 208, 208);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+form{
+    background-color: #e5a5e7;
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, button {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#Atv-list{
+background: #eee;
+color: #f30808;
+height: 40px;
+border-radius: 50px;
+margin: 10px 0;
+padding: 10px;
+cursor: pointer;
+list-style-type: none;
+font-size: 18px;
+text-align: center;
+} 
