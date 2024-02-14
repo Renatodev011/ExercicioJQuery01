@@ -9,9 +9,13 @@ $(document).ready(function(){
 
     $('#Atv-list').submit(function(event){
         event.preventDefault();
+    })
 
-        const valorinput = $("#Atv").val();
-        $("ul").append(`<li><span class="pendente">📍</span> ${valorinput}</li>`);
+    $(formulario).submit(function(event){
+        event.preventDefault();
+
+        const valorInput = $("#Atv").val();
+        $("ul").append(`<li><span class="pendente"></span> ${valorInput}</li>`);
         $("#Atv").val('');
     })
 })
