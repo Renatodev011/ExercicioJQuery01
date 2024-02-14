@@ -11,7 +11,7 @@ $(document).ready(function(){
         event.preventDefault();
     })
 
-    $(formulario).submit(function(event){
+    $('#formulario').submit(function(event){
         event.preventDefault();
 
         const valorInput = $("#Atv").val();

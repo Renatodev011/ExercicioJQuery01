@@ -33,7 +33,6 @@ input, button {
 }
 
 #Atv-list{
-background: #eee;
 color: #f30808;
 height: 40px;
 border-radius: 50px;
@@ -43,4 +42,5 @@ cursor: pointer;
 list-style-type: none;
 font-size: 18px;
 text-align: center;
+text-decoration: line-through;
 } 
